@@ -1,0 +1,127 @@
+/* .App {
+  font-family: sans-serif;
+  text-align: center;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "sans-serif";
+}
+
+body {
+  background: #fff;
+  border: 2px solid #4d08ee;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+}
+.dropdown {
+  width: 400px;
+  user-select: none;
+  margin: 100px auto;
+  position: relative;
+}
+.dropdown .dropdown-btn {
+  padding: 10px;
+  background: yellow;
+}
+.dropdown.dropdown-btn {
+  padding: 15px 20px;
+  background: rgb(143, 190, 68);
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 06);
+  font-weight: bold;
+  color: #333;
+  display: flex;
+  align-items: contex;
+  cursor: pointer;
+  justify-content: space-between;
+}
+
+.dropdown .dropdown-content {
+  position: absolute;
+  top: 110%;
+  left: 0;
+  padding: 10px;
+  background: rgb(98, 202, 84);
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 06);
+  font-weight: 500;
+  color: #333;
+  width: 95%;
+}
+.dropdown .dropdown-content .dropdown-item {
+  padding: 10px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.dropdown .dropdown-content .dropdown-item:hover {
+  background: #f44f4;
+} */
+
+body {
+  width: 40%;
+  margin: 2rem auto;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  border: 2px solid green;
+  border-radius: 10px;
+  padding: 0 1rem;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.dropdown {
+  outline: none;
+  background-color: green;
+  border: none;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+}
+
+dropdown:hover {
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+img {
+  border-radius: 5px;
+}
+
+h1 {
+  background-color: hsl(204, 82%, 71%);
+  border-radius: 5px;
+}
+.dropdown .dropdown-content .dropdown-item {
+  padding: 10px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.title {
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  background: green;
+  margin: 1rem;
+}
+.dropdown-item:hover {
+  background: rgba(0, 200, 0, 0.5);
+  background-image: linear-gradient(
+    to right,
+    #25aae1,
+    #40e495,
+    #30dd8a,
+    #2bb673
+  );
+  box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+}
